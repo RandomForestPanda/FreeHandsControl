@@ -27,7 +27,7 @@ An intuitive camera-based gesture control system for macOS that enables touchles
 
 ### Install from source
 ```bash
-git clone https://github.com/yourusername/Gestify.git
+git clone https://github.com/RandomForestPanda/FreeHandsControl.git
 cd Gestify
 pip install -r requirements.txt
 ```
@@ -60,7 +60,7 @@ This software directly modifies system settings on macOS. Use with caution:
 ## Configuration
 
 You can adjust parameters in the respective control files:
-- `VolumeHandControl_no_drawing.py`: Adjust `[50,300]` range for volume sensitivity
+- `VolumeHandControl.py`: Adjust `[50,300]` range for volume sensitivity
 - `zoomHandcontrol.py`: Modify `length` thresholds for zoom sensitivity
 
 ## Required macOS Permissions
