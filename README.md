@@ -49,11 +49,33 @@ python -m gestify.zoom
 python -m gestify.brightness
 ```
 
+## Safety Notice
+
+This software directly modifies system settings on macOS. Use with caution:
+- May affect system volume, display brightness, and application zoom levels
+- Requires accessibility permissions
+- Test in a controlled environment before regular use
+- Not recommended for mission-critical systems
+
 ## Configuration
 
 You can adjust parameters in the respective control files:
 - `VolumeHandControl_no_drawing.py`: Adjust `[50,300]` range for volume sensitivity
 - `zoomHandcontrol.py`: Modify `length` thresholds for zoom sensitivity
+
+## Required macOS Permissions
+
+For Gestify to work properly, you'll need to grant:
+
+1. **Accessibility Access**:
+   - System Preferences → Security & Privacy → Privacy → Accessibility
+   - Add your terminal/Python environment to the list
+
+2. **Screen Recording** (for some versions):
+   - System Preferences → Security & Privacy → Privacy → Screen Recording
+
+3. **Terminal/IDE Permissions**:
+   - If running from terminal, grant Terminal full disk access
 
 ## Requirements
 
