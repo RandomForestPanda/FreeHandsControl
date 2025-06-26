@@ -28,7 +28,7 @@ An intuitive camera-based gesture control system for macOS that enables touchles
 ### Install from source
 ```bash
 git clone https://github.com/RandomForestPanda/FreeHandsControl.git
-cd Gestify
+cd FreeHandsControl
 pip install -r requirements.txt
 ```
 
@@ -36,17 +36,17 @@ pip install -r requirements.txt
 
 ### Volume Control
 ```bash
-python -m gestify.volume
+python -m FreeHandsControl.volume
 ```
 
 ### Zoom Control
 ```bash
-python -m gestify.zoom
+python -m FreeHandsControl.zoom
 ```
 
 ### Brightness Control (Coming Soon)
 ```bash
-python -m gestify.brightness
+python -m FreeHandsControl.brightness
 ```
 
 ## Safety Notice
