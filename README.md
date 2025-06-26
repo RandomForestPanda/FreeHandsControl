@@ -32,6 +32,14 @@ cd FreeHandsControl
 pip install -r requirements.txt
 ```
 
+## Requirements
+
+- mediapipe
+- opencv-python
+- numpy
+- pyobjc (for macOS system controls)
+
+
 ## Usage
 
 ### Volume Control
@@ -85,12 +93,7 @@ You can adjust parameters in the respective control files:
 - Review the [source code](https://github.com/RandomForestPanda/FreeHandsControl) before granting access
 - Revoke permissions after use via the same settings panels
   
-## Requirements
 
-- mediapipe
-- opencv-python
-- numpy
-- pyobjc (for macOS system controls)
 
 ## Contributing
 
@@ -103,4 +106,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - MediaPipe for the hand tracking solution
 - AppleScript for macOS system control integration via OSAscript
-```
