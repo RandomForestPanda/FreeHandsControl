@@ -61,7 +61,7 @@ This software directly modifies system settings on macOS. Use with caution:
 
 You can adjust parameters in the respective control files:
 - `VolumeHandControl.py`: Adjust `[50,300]` range for volume sensitivity
-- `zoomHandcontrol.py`: Modify `length` thresholds for zoom sensitivity
+- `ZoomHandcontrol.py`: Modify `length` thresholds for zoom sensitivity
 
 ## Required macOS Permissions
 
