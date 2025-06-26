@@ -8,7 +8,7 @@ setup(
     project_urls={
         "Homepage": "https://github.com/RandomForestPanda/FreeHandsControl",
         "Bug Reports": "https://github.com/RandomForestPanda/FreeHandsControl/issues",
-    }
+    },
     description="Touchless gesture control for macOS",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
