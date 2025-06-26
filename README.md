@@ -49,7 +49,7 @@ python -m FreeHandsControl.zoom
 python -m FreeHandsControl.brightness
 ```
 
-## Safety Notice
+## Safety Notice - Use with caution
 
 This software directly modifies system settings on macOS. Use with caution:
 - May affect system volume, display brightness, and application zoom levels
@@ -63,20 +63,28 @@ You can adjust parameters in the respective control files:
 - `VolumeHandControl.py`: Adjust `[50,300]` range for volume sensitivity
 - `ZoomHandcontrol.py`: Modify `length` thresholds for zoom sensitivity
 
-## Required macOS Permissions
+## 🔐 Required macOS Permissions 
 
-For Gestify to work properly, you'll need to grant:
+**⚠️ Warning**: Grant these permissions at your own risk. This software requires system-level access:
 
-1. **Accessibility Access**:
-   - System Preferences → Security & Privacy → Privacy → Accessibility
-   - Add your terminal/Python environment to the list
+1. **Accessibility Access**  
+   `System Preferences → Security & Privacy → Privacy → Accessibility`  
+   *Allows volume/brightness control*
 
-2. **Screen Recording** (for some versions):
-   - System Preferences → Security & Privacy → Privacy → Screen Recording
+2. **Screen Recording** (optional for some versions)  
+   `System Preferences → Security & Privacy → Privacy → Screen Recording`  
+   *Required for application-specific zoom control*
 
-3. **Terminal/IDE Permissions**:
-   - If running from terminal, grant Terminal full disk access
+3. **Terminal/IDE Permissions**  
+   If running from terminal:  
+   `System Preferences → Security & Privacy → Privacy → Full Disk Access`
 
+### Security Considerations
+- These permissions give the software system-modification capabilities
+- Only install from trusted sources
+- Review the [source code](https://github.com/RandomForestPanda/FreeHandsControl) before granting access
+- Revoke permissions after use via the same settings panels
+  
 ## Requirements
 
 - mediapipe
